@@ -1,0 +1,14 @@
+# Used for development only
+---
+version: '2'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: dev.dockerfile
+    command: /bin/sh
+    volumes:
+      - ./app:/usr/src/code
+      - ./data-dir:/data
+    working_dir: /usr/src/code
+    # env_file: .env

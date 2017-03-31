@@ -1,0 +1,27 @@
+{
+  "name": "rotate-aws-key",
+  "version": "0.0.1",
+  "description": "Fix HL7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cli": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "author": "ddffx",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.2.0",
+    "glob": "^7.1.1",
+    "meow": "^3.7.0",
+    "replace-in-file": "^2.5.0",
+    "shelljs": "^0.7.7"
+  }
+}
